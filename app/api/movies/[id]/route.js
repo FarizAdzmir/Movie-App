@@ -4,7 +4,7 @@ const BASE_URL = 'https://freetestapi.com/api/v1/movies'
 
 export async function GET(request, { params }) {
   try {
-    // Ensure `params` is resolved asynchronously
+    // 
     const { id } = await Promise.resolve(params);
 
     const response = await fetch(`${BASE_URL}/${id}`);
