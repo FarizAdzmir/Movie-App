@@ -48,9 +48,6 @@ The app interacts with the following API endpoints:
 - **Fetch all movies**: `GET /api/movies`
 - **Fetch movie details**: `GET /api/movies/{id}`
 
-## Screenshots
-Include screenshots or a short video here to demonstrate the app's functionality (replace this section with actual screenshots).
-
 ## Tech Stack
 - **Frontend**: React, Next.js, Tailwind CSS
 - **API Integration**: FreeTestAPI Movies API
